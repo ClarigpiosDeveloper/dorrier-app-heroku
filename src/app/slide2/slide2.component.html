@@ -1,0 +1,22 @@
+<div  class="forceRatio">
+  <div class="forceRatio__inner">
+   <app-header></app-header>
+   <div *ngIf="show" @fadeIn @fadeOut class="relative mainHeight">
+     <img src="../../assets/2_1.jpg" alt="" width="100%">
+   </div>
+  </div>
+     <div *ngIf="show" @fadeIn @fadeOut class="bottom-left">
+      <div class="leftarrow">
+        <h4 class="font1 text-light text-center">
+         
+          
+        </h4>
+      <div class="d-flex justify-content-start">
+          <img   (click)="onSave()" class="ml-2 arrwosize rotated" id="neonShadow"  src="../../assets/arrow.png" alt="">
+      </div>
+    </div>
+     </div>
+     <!-- <div  (click)="open(content)" class="boxmiddle"></div> -->
+</div>
+ 
+ 

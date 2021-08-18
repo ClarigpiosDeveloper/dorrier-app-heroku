@@ -1,0 +1,39 @@
+
+   <div  class="forceRatio">
+     <div class="forceRatio__inner">
+      <app-header></app-header>
+      <div *ngIf="show" @fadeIn @fadeOut class="relative mainHeight">
+        <img src="../../assets/1.jpg" alt="" width="100%">
+      </div>
+     </div>
+        <div *ngIf="show" @fadeIn @fadeOut class="bottom-left">
+         <div class="leftarrow">
+           <h4 class="font1 text-light text-center">
+             <ul>
+               <li>US</li>
+               <li>Msdical</li>
+               <li>booth</li>
+             </ul>
+           </h4>
+         <div class="d-flex justify-content-start">
+             <img  (click)="onSave()" class="ml-2 arrwosize" id="neonShadow"  src="../../assets/arrow.png" alt="">
+         </div>
+       </div>
+        </div>
+        <div *ngIf="show" @fadeIn @fadeOut class="top-right">
+         <div class="rightarrow">
+           <h4 class="font1 text-light text-center">
+             <ul>
+               <li>US</li>
+               <li>Commer</li>
+               <li>booth</li>
+             </ul>
+           </h4>
+           <div class="d-flex justify-content-end">
+               <img (click)="routestohome();onSave1()" class="mr-3 arrwosize" id="neonShadow" src="../../assets/arrow.png" alt="">
+           </div>
+         </div>
+       </div>
+  
+   </div>
+ 

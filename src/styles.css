@@ -1,0 +1,238 @@
+/* You can add global styles to this file, and also import other style files */
+ 
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    }
+     
+    .navtxt{
+        font-size: 13px;
+    }
+    .title{
+        font-size: 29px;
+    }
+    .title2{
+      font-size: 1.2rem !important;
+    }
+
+    
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+    
+ 
+    section.container.absolute {
+        position: absolute;
+        top: 60%;
+        left: 8%;
+    }
+    .font1{
+      font-size: 1.5vw;
+    }
+    
+  
+      #neonShadow{
+      
+        border:none;
+        border-radius:50px;
+        transition:0.3s;
+        background-color:rgba(156, 161, 160,0.3);
+        animation: glow 1s infinite ;
+        transition:0.5s;
+      }
+     
+      @keyframes glow{
+        0%{
+        box-shadow: 5px 5px 20px rgb(93, 52, 168),-5px -5px 20px rgb(93, 52, 168);}
+        
+        50%{
+        box-shadow: 5px 5px 20px rgb(81, 224, 210),-5px -5px 20px rgb(81, 224, 210)
+        }
+        100%{
+        box-shadow: 5px 5px 20px rgb(93, 52, 168),-5px -5px 20px rgb(93, 52, 168)
+        }
+      }
+      
+      .imgconain{
+          position: relative;
+       
+          
+      }
+      .bottom-left {
+        position: absolute;
+        top: 50%;
+        left: 10%;
+        transform: translateY(-50%);
+      }
+      
+      .top-left {
+        position: absolute;
+        top: 8px;
+        left: 16px;
+      }
+      
+      .top-right {
+        position: absolute;
+        top: 50%;
+        right: 10%;
+        transform: translateY(-50%);
+      }
+      
+      .bottom-right {
+        position: absolute;
+        bottom: 8px;
+        right: 16px;
+      }
+      .amoveg{
+           position: absolute;
+           bottom: 21rem;
+        left: 50px;
+      }
+      
+      ul {
+        list-style-type: none;
+    }
+    .arrwosize{
+      width: 3vw;
+       height: 3vw;
+    }
+    .rotated {
+      transform: rotate(270deg); /* Equal to rotateZ(45deg) */
+      background-color: pink;
+    }
+  
+      .left-panel{
+        left: 6.0833rem;
+        top: 12.3333rem;
+        color: white;
+        transform: translateY(-10%,-30%);
+        position: absolute;
+       
+      }
+      .end-panel{
+        right: 0rem;
+        top: 0rem;
+        position: fixed;
+        box-shadow: 0 19px #8080803d;
+        
+        position: absolute;
+      }
+      .middle-panel{
+        position: absolute;
+        top: 50%;
+        color: aliceblue;
+        left: 37%;
+        transform: translateY(-50%);
+      }
+      
+      .right-panel{
+        right: 17.0833rem;
+        top: 10.3333rem;
+        color: white; 
+        position: absolute
+    
+      }
+      div.ex3 {
+         
+          background-color: #e3eaec;
+          width: 15rem !important;
+          height: 35rem !important;
+          overflow: auto;
+      }
+
+      /* footer*/
+       
+
+    
+      footer.txtfotwer {
+        margin: -4vw 0 0 0;
+        
+      }
+ 
+.txtfotwer{
+	position: relative;
+ 
+  width: 28vw;
+  height: 2vw;
+  opacity: 0.5;
+	overflow:hidden;
+	z-index: 1;
+}
+.txtfotwer ul{
+	list-style-type:none;
+	line-height: 2vw;
+}
+.txtfotwer ul li{
+  width: 5.5vw;
+	float: left;
+	text-align: center;
+	cursor: pointer;
+}
+.txtfotwer ul li a{
+	text-decoration:none;
+	color: rgb(12, 4, 4);
+	font-size: 1vw;
+  font-weight: bold;
+ 
+}
+ /* ... */
+footer{
+	position: relative;
+ 
+  width: 27vw;
+  height: 2vw;
+	border-radius:0px;
+	overflow:hidden;
+	z-index: 1;
+}
+footer ul{
+	list-style-type:none;
+	line-height: 2vw;
+}
+footer ul li{
+	width: 5.3vw;
+	float: left;
+	text-align: center;
+	cursor: pointer;
+}
+footer ul li a{
+	text-decoration:none;
+	color: #fff;
+	font-size: 18px;
+	font-family: 'Roboto', sans-serif;
+}
+footer ul li.back-list{
+	position: absolute;
+	background-color: #0075db;
+  width: 3.2vw;
+  height: 2vw;
+  border-radius: 50%;
+	left: 1vw;
+	bottom: 0px;
+	z-index: -1;
+	transition: .5s ease-in;
+}
+footer ul li:first-of-type:hover ~ .back-list{
+	left: 1vw;
+}
+footer ul li:nth-of-type(2):hover ~ .back-list{
+	left: 6.4vw;
+}
+footer ul li:nth-of-type(3):hover ~ .back-list{
+	left: 11.6vw;
+}
+footer ul li:nth-of-type(4):hover ~ .back-list{
+	left: 16.9vw;
+}
+footer ul li:nth-of-type(5):hover ~ .back-list{
+	left: 22.2vw;
+}
+
+footer.footer {
+  z-index: 2;
+  margin: -6vw 0 0 0;
+ 
+}
+
